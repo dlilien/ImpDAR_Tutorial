@@ -3,13 +3,20 @@ For U-Maine, November 2021
 
 ## Beforehand
 -Install ImpDAR (version 1.1.3 or newer)
+
 -Clone (or download this repository)
+
 -Get the jif2021.h5 file into the folder of this repository (probably ImpDAR_Tutorial)
+
+-Some examples will use GDAL. Plotting uses cartopy (and owslib). These are not critical, but nice to have.
 
 ## Roadmap
 -Intro to ImpDAR
+
 -Command line processing
+
 -Programmatic processing
+
 -Picking
 
 ## Intro to ImpDAR
