@@ -34,3 +34,9 @@ impproc ahfilt 50 zeroed/*.mat -o hfilted/
 
 mkdir constant_spaced
 impproc interp -o constant_spaced/ 0.2 --minmove 0.05 hfilted/*.mat
+
+mkdir tk_migged
+impproc migrate --mtype sumigtk constant_spaced/*.mat -o tk_migged
+
+mkdir stolt_migged
+impproc migrate --mtype stolt constant_spaced/*.mat -o stolt_migged
